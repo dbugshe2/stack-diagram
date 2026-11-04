@@ -80,16 +80,12 @@ Every diagram is rendered in both themes. Tiles stay white so logos keep their o
 
 ## Share it as an artifact
 
-The diagram is one HTML file with its fonts and logos inlined, so it renders anywhere without a network. Publish it as a Claude artifact and share the link, or drop it into a repo or wiki. The PNGs and the React component are rendered from the same file.
+The diagram is one HTML file with its fonts and logos inlined, so it renders anywhere without a network. Everything is generated locally on your machine — nothing is uploaded to any external server. Publish it as a Claude artifact and share the link, or drop it into a repo or wiki. The PNGs and the React component are rendered from the same file.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/html-page-dark.png">
   <img src="docs/html-page.png" alt="The docs chatbot diagram as an HTML page in a browser window, with a title, a short description, the diagram, a legend and a footer" width="100%">
 </picture>
-
-## Share it to the gallery
-
-After drawing, the agent offers once to post the diagram to the public gallery at https://stacks.caru.moe. It shows what will be public (the light and dark PNGs, an English title, the tech stack and a display name) and posts only after you say yes twice. Your prompt is never sent. A GitHub login is optional and never shown; it only lets you delete the post later. The site's source is in [`site/`](site).
 
 ## What you get
 
